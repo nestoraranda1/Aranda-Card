@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 22px;
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0,0,0,.12);
+  text-align: center;
+}
+
+.perfil {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 14px;
+  border: 3px solid #e5e5e5;
+}
+
+.nombre {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.compania {
+  margin: 4px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.descripcion {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 14px 0;
+  line-height: 1.4;
+}
+
+.telefono a,
+.web a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social img {
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  transition: transform .2s ease;
+}
+
+.social img:hover {
+  transform: scale(1.12);
+}
